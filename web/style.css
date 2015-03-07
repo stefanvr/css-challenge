@@ -77,3 +77,10 @@ section {
     background-color: #ffffff; }
   #customer p {
     color: #727272; }
+  #customer img {
+    display: block;
+    border: solid #03a9f4 7px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    margin: 2em auto 1em auto; }
