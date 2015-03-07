@@ -18,3 +18,27 @@ h1 {
 p, button {
   font-size: 0.5em;
 }
+
+/* colors */
+$accent_color:          #03a9f4;
+$primary_color:         #3f51b5;
+$light_primary_color:   #c5cae9;
+$divider_color:         #b6b6b6;
+
+$base_text_color:       #ffffff;
+$primary_text_color:    #333333;
+$secondary_text_color:  #727272;
+
+/* info section */
+#intro {
+  background-color: $primary_color;
+  color: $base_text_color;
+
+  p {
+    color: $light_primary_color;
+  }
+
+  button {
+    background-color: $accent_color;
+  }
+}
