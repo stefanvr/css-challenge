@@ -39,6 +39,18 @@ section {
     max-width: 940px;
     margin: auto; }
 
+/* components */
+button {
+  border: 0;
+  padding: 0 2em; }
+
+img {
+  display: block;
+  border: solid #03a9f4 7px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px; }
+
 /* sections */
 #intro {
   /* colors */
@@ -55,9 +67,7 @@ section {
   #intro p {
     padding: 1em; }
   #intro button {
-    border: 0;
-    margin: 1em;
-    padding: 0 2em; }
+    margin: 1em; }
 
 #info {
   /* layout */ }
@@ -78,9 +88,4 @@ section {
   #customer p {
     color: #727272; }
   #customer img {
-    display: block;
-    border: solid #03a9f4 7px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
     margin: 2em auto 1em auto; }

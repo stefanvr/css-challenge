@@ -62,6 +62,21 @@ section {
   }
 }
 
+/* components */
+button {
+  border: 0;
+  padding: 0 2em
+}
+
+img {
+  $diameter: 150px;
+  display: block;
+  border: solid $accent_color 7px;
+  border-radius: $diameter;
+  -webkit-border-radius: $diameter;
+  -moz-border-radius: $diameter;
+}
+
 /* sections */
 #intro {
   /* colors */
@@ -87,9 +102,7 @@ section {
   }
 
   button {
-    border: 0;
     margin: 1em;
-    padding: 0 2em
   }
 }
 
@@ -125,16 +138,6 @@ $margin: 26px;
   }
 
   img {
-    $diameter: 150px;
-    display: block;
-    border: solid $accent_color 7px;
-    border-radius: $diameter;
-    -webkit-border-radius: $diameter;
-    -moz-border-radius: $diameter;
     margin: 2em auto 1em auto;
   }
 }
-
-
-
-
