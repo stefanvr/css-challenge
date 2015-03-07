@@ -16,6 +16,17 @@ h2 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em; }
 
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+h4 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+  font-style: italic; }
+
 p, button {
   font-size: 0.6em;
   line-height: 28px; }

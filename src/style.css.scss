@@ -24,6 +24,19 @@ h2 {
   font-size: $font_size_large;
 }
 
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: $font_size_large;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: $font_size_large;
+  font-style: italic
+}
+
 p, button {
   font-size: $font_size_medium;
   line-height: 28px;
