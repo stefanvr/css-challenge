@@ -5,7 +5,7 @@
 body {
   font-family: 'Droid Serif', serif;
   font-size: 26px;
-  line-height: 28px; }
+  line-height: 26px; }
 
 /* Typography */
 h1 {
@@ -13,14 +13,29 @@ h1 {
   font-size: 1.5em; }
 
 p, button {
-  font-size: 0.5em; }
+  font-size: 0.6em;
+  line-height: 28px; }
 
 /* colors */
 /* info section */
 #intro {
+  /* colors */
   background-color: #3f51b5;
-  color: #ffffff; }
+  color: #ffffff;
+  /* layout */
+  text-align: center; }
   #intro p {
     color: #c5cae9; }
   #intro button {
-    background-color: #03a9f4; }
+    background-color: #03a9f4;
+    color: #ffffff; }
+  #intro article {
+    padding: 6em 0 3em 0;
+    max-width: 940px;
+    margin: auto; }
+  #intro p {
+    padding: 1em; }
+  #intro button {
+    border: 0;
+    margin: 1em;
+    padding: 0 2em; }
