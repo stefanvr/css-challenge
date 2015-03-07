@@ -6,17 +6,27 @@
 body {
   font-family: 'Droid Serif', serif;
   font-size:26px;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 /* Typography */
+$font_size_medium:      0.6em;
+$font_size_large:       1em;
+$font_size_xlarge:      1.5em;
+
 h1 {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: $font_size_xlarge;
 }
 
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: $font_size_large;
+}
+
+
 p, button {
-  font-size: 0.6em;
+  font-size: $font_size_medium;
   line-height: 28px;
 }
 
@@ -29,6 +39,11 @@ $divider_color:         #b6b6b6;
 $base_text_color:       #ffffff;
 $primary_text_color:    #333333;
 $secondary_text_color:  #727272;
+
+/* generic layout */
+section {
+  text-align: center;
+}
 
 /* info section */
 #intro {
@@ -46,8 +61,6 @@ $secondary_text_color:  #727272;
   }
 
   /* layout */
-  text-align: center;
-
   article {
     padding: 6em 0 3em 0;
     max-width: 940px;
@@ -63,5 +76,9 @@ $secondary_text_color:  #727272;
     margin: 1em;
     padding: 0 2em
   }
+}
+
+#info {
+
 }
 
