@@ -28,7 +28,7 @@ section {
     max-width: 940px;
     margin: auto; }
 
-/* info section */
+/* sections */
 #intro {
   /* colors */
   background-color: #3f51b5;
@@ -56,3 +56,13 @@ section {
     padding: 1em;
     width: 45%;
     float: left; }
+
+#customer {
+  /* colors */
+  background-color: #b6b6b6; }
+  #customer h2 {
+    color: #ffffff; }
+  #customer article {
+    background-color: #ffffff; }
+  #customer p {
+    color: #727272; }
