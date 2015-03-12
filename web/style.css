@@ -81,7 +81,8 @@ img {
 
 .customer {
   /* colors */
-  background-color: #b6b6b6; }
+  background-color: #b6b6b6;
+  /* layout */ }
   .customer h2 {
     color: #ffffff; }
   .customer article {
@@ -90,3 +91,9 @@ img {
     color: #727272; }
   .customer img {
     margin: 2em auto 1em auto; }
+  .customer header {
+    padding: 1em 0; }
+  .customer article {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em; }

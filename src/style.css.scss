@@ -141,4 +141,15 @@ $margin: 26px;
   img {
     margin: 2em auto 1em auto;
   }
+
+  /* layout */
+  header {
+    padding: 1em 0;
+  }
+
+  article {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em;
+  }
 }
