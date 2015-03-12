@@ -37,7 +37,8 @@ section {
   text-align: center; }
   section article {
     max-width: 940px;
-    margin: auto; }
+    margin: auto;
+    overflow: auto; }
 
 /* components */
 button {
