@@ -53,12 +53,16 @@ $primary_text_color:    #333333;
 $secondary_text_color:  #727272;
 
 /* generic layout */
+.rails-width {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 section {
   text-align: center;
 
   article {
     max-width: 940px;
-    margin: auto;
     overflow: auto;
   }
 }

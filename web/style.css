@@ -33,11 +33,14 @@ p, button {
 
 /* colors */
 /* generic layout */
+.rails-width {
+  max-width: 940px;
+  margin: 0 auto; }
+
 section {
   text-align: center; }
   section article {
     max-width: 940px;
-    margin: auto;
     overflow: auto; }
 
 /* components */
