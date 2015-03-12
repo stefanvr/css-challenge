@@ -79,7 +79,7 @@ img {
 }
 
 /* sections */
-#intro {
+.intro {
   /* colors */
   background-color: $primary_color;
   color: $base_text_color;
@@ -107,7 +107,7 @@ img {
   }
 }
 
-#info {
+.info {
   /* layout */
   article {
     padding: 3em 0 1.5em 0;
@@ -122,7 +122,7 @@ img {
 
 $margin: 26px;
 
-#customer {
+.customer {
   /* colors */
   background-color: $divider_color;
 
