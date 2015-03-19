@@ -1,5 +1,6 @@
 /* Generic */
 * {
+  padding: 0;
   margin: 0;
 }
 
@@ -58,6 +59,8 @@ $light-green: #CDDA48;
 $blue: #1DAAF1;
 $yellow: #FEC02E;
 
+.orange  { background-color: $orange }
+.green  { background-color: $green }
 .light-green  { background-color: $light-green }
 .blue   { background-color: $blue }
 .yellow { background-color: $yellow }
@@ -70,6 +73,10 @@ $yellow: #FEC02E;
 
 section {
   text-align: center;
+
+  h2 {
+    padding-bottom: 2em;
+  }
 
   article {
     max-width: 940px;
@@ -93,6 +100,21 @@ img.person {
 }
 
 /* layouts */
+.bar {
+  overflow: auto;
+  .wrap {
+    float: left;
+
+    &:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ div {
+      width: 50%;
+    }
+
+    &:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ div {
+      width: 33.33%;
+    }
+  }
+}
+
 .three_block {
   /* layout */
   .rails-width {
@@ -108,7 +130,6 @@ img.person {
   }
 
   article {
-    width: 30%;
     padding: 2em 0;
     display: inline-block;
     margin: 0.5em;
@@ -156,10 +177,12 @@ img.person {
     padding: 3em 0 1.5em 0;
   }
 
-  p {
-    padding: 1em;
-    width: 45%;
+  .wrap {
+    width: 50%;
     float: left;
+    p {
+      padding: 1em;
+    }
   }
 }
 
@@ -196,3 +219,5 @@ $margin: 26px;
     color: $base_text_color;
   }
 }
+
+
