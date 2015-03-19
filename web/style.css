@@ -16,13 +16,13 @@ h2 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em; }
 
-h3 {
+h4 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
-h4 {
+h5 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   font-style: italic; }
@@ -48,12 +48,24 @@ button {
   border: 0;
   padding: 0 2em; }
 
-img {
+img.person {
   display: block;
   border: solid #03a9f4 7px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px; }
+
+/* layouts */
+.three_block {
+  /* layout */ }
+  .three_block .rails-width {
+    padding: 3em 0 1.5em 0; }
+  .three_block header {
+    padding: 1em 0; }
+  .three_block article {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em; }
 
 /* sections */
 .intro {
@@ -86,8 +98,7 @@ img {
 
 .customer {
   /* colors */
-  background-color: #03a9f4;
-  /* layout */ }
+  background-color: #03a9f4; }
   .customer h2 {
     color: #ffffff; }
   .customer article {
@@ -96,11 +107,7 @@ img {
     color: #727272; }
   .customer img {
     margin: 2em auto 1em auto; }
-  .customer .rails-width {
-    padding: 3em 0 1.5em 0; }
-  .customer header {
-    padding: 1em 0; }
-  .customer article {
-    width: 30%;
-    display: inline-block;
-    margin: 0.5em; }
+
+.products {
+  /* colors */
+  background-color: #c5cae9; }

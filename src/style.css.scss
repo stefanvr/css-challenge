@@ -24,14 +24,14 @@ h2 {
   font-size: $font_size_large;
 }
 
-h3 {
+h4 {
   font-family: 'Droid Sans', sans-serif;
   font-size: $font_size_large;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-family: 'Droid Sans', sans-serif;
   font-size: $font_size_large;
   font-style: italic
@@ -73,13 +73,31 @@ button {
   padding: 0 2em
 }
 
-img {
+img.person {
   $diameter: 150px;
   display: block;
   border: solid $accent_color 7px;
   border-radius: $diameter;
   -webkit-border-radius: $diameter;
   -moz-border-radius: $diameter;
+}
+
+/* layouts */
+.three_block {
+  /* layout */
+  .rails-width {
+    padding: 3em 0 1.5em 0;
+  }
+
+  header {
+    padding: 1em 0;
+  }
+
+  article {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em;
+  }
 }
 
 /* sections */
@@ -147,19 +165,9 @@ $margin: 26px;
   img {
     margin: 2em auto 1em auto;
   }
+}
 
-  /* layout */
-  .rails-width {
-    padding: 3em 0 1.5em 0;
-  }
-
-  header {
-    padding: 1em 0;
-  }
-
-  article {
-    width: 30%;
-    display: inline-block;
-    margin: 0.5em;
-  }
+.products {
+  /* colors */
+  background-color: $light_primary_color;
 }
