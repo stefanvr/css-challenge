@@ -14,17 +14,17 @@ h1 {
 
 h2 {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 h4 {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
 h5 {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   font-style: italic; }
 
 p, button {
@@ -32,6 +32,15 @@ p, button {
   line-height: 28px; }
 
 /* colors */
+.light-green {
+  background-color: #CDDA48; }
+
+.blue {
+  background-color: #1DAAF1; }
+
+.yellow {
+  background-color: #FEC02E; }
+
 /* generic layout */
 .rails-width {
   max-width: 940px;
@@ -62,10 +71,15 @@ img.person {
     padding: 3em 0 1.5em 0; }
   .three_block header {
     padding: 1em 0; }
+    .three_block header.small {
+      padding: 0.5em 0 0 0; }
   .three_block article {
     width: 30%;
+    padding: 2em 0;
     display: inline-block;
     margin: 0.5em; }
+  .three_block p {
+    padding: 0 1em 1em 1em; }
 
 /* sections */
 .intro {
@@ -110,4 +124,8 @@ img.person {
 
 .products {
   /* colors */
-  background-color: #c5cae9; }
+  background-color: #c5cae9;
+  color: #ffffff; }
+  .products button {
+    background-color: #c5cae9;
+    color: #ffffff; }

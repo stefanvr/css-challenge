@@ -11,7 +11,7 @@ body {
 
 /* Typography */
 $font_size_medium:      0.6em;
-$font_size_large:       1em;
+$font_size_large:       0.9em;
 $font_size_xlarge:      1.5em;
 
 h1 {
@@ -52,6 +52,16 @@ $base_text_color:       #ffffff;
 $primary_text_color:    #333333;
 $secondary_text_color:  #727272;
 
+$orange: #fC582F;
+$green: #8CC252;
+$light-green: #CDDA48;
+$blue: #1DAAF1;
+$yellow: #FEC02E;
+
+.light-green  { background-color: $light-green }
+.blue   { background-color: $blue }
+.yellow { background-color: $yellow }
+
 /* generic layout */
 .rails-width {
   max-width: 940px;
@@ -91,12 +101,21 @@ img.person {
 
   header {
     padding: 1em 0;
+
+    &.small {
+      padding: 0.5em 0 0 0;
+    }
   }
 
   article {
     width: 30%;
+    padding: 2em 0;
     display: inline-block;
     margin: 0.5em;
+  }
+
+  p {
+    padding: 0 1em 1em 1em;
   }
 }
 
@@ -170,4 +189,10 @@ $margin: 26px;
 .products {
   /* colors */
   background-color: $light_primary_color;
+  color: $base_text_color;
+
+  button {
+    background-color: $light_primary_color;
+    color: $base_text_color;
+  }
 }
