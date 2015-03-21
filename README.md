@@ -1,6 +1,15 @@
 # css-challenge
 kabisa css-challenge
 
+## 101
+
+There are a good indept article for understanding layout:
+
+* [position](http://alistapart.com/article/css-positioning-101)
+* [float](http://alistapart.com/article/css-floats-101)
+
+In the following paragraph, some of the essentials. 
+
 ## Floats
 
 Use clear fix solution to make parent div wrap floating child elements
