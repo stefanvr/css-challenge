@@ -14,7 +14,9 @@ Default behaviour adds `padding` and `border` width to element width.
 
 * box-sizing: border-box; changes this behaviour to make padding and border part of element width.
 * Wrapping element: As margin still adds to the width, a wrapping element without any padding, margin and border is the standard solution to solve that
-* Be aware when using `inline-block` that space use pixel too '...</div><div>...' != '...</div>  <div>...' 
+* Be aware when using `inline-block` that space use pixel too 
+
+> '...&lt;/div&gt;&lt;div&gt;...' != '...&lt;/div&gt;  &lt;div&gt;...' 
 
 ## Position
 
