@@ -5,8 +5,15 @@ kabisa css-challenge
 
 Use clear fix solution to make parent div wrap floating child elements
 
-* https://css-tricks.com/snippets/css/clear-fix/ 
+* [Css tricks - clear fix](https://css-tricks.com/snippets/css/clear-fix/)
 * `Flexbox` is more modern solution, but not yet supported on all browsers
+
+## Collapsing marging
+
+Normal vertical stacked divs collapse the margin
+
+* [W3C Box model, 8.3.1 Collapsing margins](http://www.w3.org/TR/CSS21/box.html#collapsing-margins")
+  
 
 ## Aligning elements with same 'column' width
 
