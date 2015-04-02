@@ -83,19 +83,19 @@ img.person {
     .bar .wrap:first-child:nth-last-child(3), .bar .wrap:first-child:nth-last-child(3) ~ div {
       width: 33.33%; }
 
-.three_block {
+.article_block {
   /* layout */ }
-  .three_block .rails-width {
+  .article_block .rails-width {
     padding: 3em 0 1.5em 0; }
-  .three_block header {
+  .article_block header {
     padding: 1em 0; }
-    .three_block header.small {
+    .article_block header.small {
       padding: 0.5em 0 0 0; }
-  .three_block article {
+  .article_block article {
     padding: 2em 0;
     display: inline-block;
     margin: 0.5em; }
-  .three_block p {
+  .article_block p {
     padding: 0 1em 1em 1em; }
 
 /* sections */
