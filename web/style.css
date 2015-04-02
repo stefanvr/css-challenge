@@ -95,7 +95,7 @@ img.person {
   float: right;
   margin: 1em; }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (min-height: 480px) {
   .bar_text {
     overflow: auto; }
     .bar_text .wrap {
