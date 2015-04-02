@@ -11,9 +11,8 @@ body {
 }
 
 /* Screen-sizes */
-$mobile: 480px;
-$tablet: 768px;
-$screen: 992px;
+$min-tablet: 480px;
+$min-screen: 992px;
 
 /* Typography */
 $font_size_medium: 0.6em;
@@ -134,20 +133,7 @@ img.person {
   }
 }
 
-@media screen and (min-width: $tablet) {
-  .bar_text {
-    @include float;
-  }
-}
-
-@media screen and (min-width: $screen) {
-  .bar {
-    @include float;
-  }
-}
-
 .article_block {
-  /* layout */
   .rails-width {
     padding: 3em 0 1.5em 0;
   }
@@ -168,6 +154,45 @@ img.person {
 
   p {
     padding: 0 1em 1em 1em;
+  }
+
+  img {
+    float: left;
+    width:2em;
+    margin: 1em;
+  }
+
+  button {
+    float: right;
+    margin: 1em;
+  }
+}
+
+@media screen and (min-width: $min-tablet) {
+  .bar_text {
+    @include float;
+  }
+
+  .article_block {
+    img {
+      width: auto;
+    }
+  }
+}
+
+@media screen and (min-width: $min-screen) {
+  .bar {
+    @include float;
+  }
+
+  .article_block {
+    img {
+      float: none;
+    }
+
+    button {
+      float: none;
+    }
   }
 }
 
