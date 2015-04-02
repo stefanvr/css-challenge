@@ -6,14 +6,19 @@
 
 body {
   font-family: 'Droid Serif', serif;
-  font-size:26px;
+  font-size: 26px;
   line-height: 28px;
 }
 
+/* Screen-sizes */
+$mobile: 480px;
+$tablet: 768px;
+$screen: 992px;
+
 /* Typography */
-$font_size_medium:      0.6em;
-$font_size_large:       0.9em;
-$font_size_xlarge:      1.5em;
+$font_size_medium: 0.6em;
+$font_size_large: 0.9em;
+$font_size_xlarge: 1.5em;
 
 h1 {
   font-family: 'Droid Sans', sans-serif;
@@ -44,14 +49,14 @@ p, button {
 }
 
 /* colors */
-$accent_color:          #03a9f4;
-$primary_color:         #3f51b5;
-$light_primary_color:   #c5cae9;
-$divider_color:         #b6b6b6;
+$accent_color: #03a9f4;
+$primary_color: #3f51b5;
+$light_primary_color: #c5cae9;
+$divider_color: #b6b6b6;
 
-$base_text_color:       #ffffff;
-$primary_text_color:    #333333;
-$secondary_text_color:  #727272;
+$base_text_color: #ffffff;
+$primary_text_color: #333333;
+$secondary_text_color: #727272;
 
 $orange: #fC582F;
 $green: #8CC252;
@@ -59,11 +64,25 @@ $light-green: #CDDA48;
 $blue: #1DAAF1;
 $yellow: #FEC02E;
 
-.orange  { background-color: $orange }
-.green  { background-color: $green }
-.light-green  { background-color: $light-green }
-.blue   { background-color: $blue }
-.yellow { background-color: $yellow }
+.orange {
+  background-color: $orange
+}
+
+.green {
+  background-color: $green
+}
+
+.light-green {
+  background-color: $light-green
+}
+
+.blue {
+  background-color: $blue
+}
+
+.yellow {
+  background-color: $yellow
+}
 
 /* generic layout */
 .rails-width {
@@ -100,7 +119,7 @@ img.person {
 }
 
 /* layouts */
-.bar {
+@mixin float {
   overflow: auto;
   .wrap {
     float: left;
@@ -112,6 +131,18 @@ img.person {
     &:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ div {
       width: 33.33%;
     }
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .bar_text {
+    @include float;
+  }
+}
+
+@media screen and (min-width: $screen) {
+  .bar {
+    @include float;
   }
 }
 
@@ -177,12 +208,8 @@ img.person {
     padding: 3em 0 1.5em 0;
   }
 
-  .wrap {
-    width: 50%;
-    float: left;
-    p {
-      padding: 1em;
-    }
+  p {
+    padding: 1em;
   }
 }
 
