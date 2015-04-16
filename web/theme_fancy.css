@@ -156,27 +156,44 @@ h5 {
 
 /* components */
 img.person {
-  border-color: #795548; }
+  border-color: #E6522D; }
 
 /* sections */
 .intro {
-  background-color: #FFC107;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-position: center;
   color: #ffffff; }
   .intro p {
     color: #c5cae9; }
-  .intro button {
-    background-color: #795548;
+  .intro button:hover {
+    border: 2px solid #E6522D;
+    background-color: #E6522D;
     color: #ffffff; }
+  .intro button {
+    border: 2px solid #E6522D;
+    color: #E6522D;
+    background: #ffffff; }
+
+.info {
+  background-color: #CCCCC2; }
 
 .products {
-  background-color: #b6b6b6;
+  background-color: #B6AEA1;
   color: #ffffff; }
-  .products button {
-    background-color: #c5cae9;
+  .products button:hover {
+    border: 2px solid #795548;
+    background-color: #795548;
     color: #ffffff; }
+  .products button {
+    border: 2px solid #795548;
+    color: #795548;
+    background: #ffffff; }
+  .products article {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), white 65%, rgba(255, 255, 255, 0.8) 95%, rgba(255, 255, 255, 0)); }
 
 .customer {
-  background-color: #795548; }
+  background-color: #72441E; }
   .customer h2 {
     color: #ffffff; }
   .customer article {

@@ -1,6 +1,14 @@
 @import "style";
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab);
 
+
+$greyish: #CCCCC2;
+$marmer: #B6AEA1;
+$rust: #72441E;
+$cocoa: #71431E;
+$red: #E6522D;
+
+
 /* Typography */
 body {
   font-family: 'Josefin Sans', serif;
@@ -25,36 +33,62 @@ h5 {
 
 /* components */
 img.person {
-  border-color: $brown;
+  border-color: $red;
 }
 
 /* sections */
 .intro {
-  background-color: $ochre;
+  background-image: url(images/bg.jpg);
+
+  background-size: cover;
+  background-position: center;
+
   color: $white;
 
   p {
     color: $light_primary_color;
   }
 
-  button {
-    background-color: $brown;
+  button:hover {
+    border: 2px solid  $red;
+    background-color: $red;
     color: $white;
+  }
+
+  button{
+    border: 2px solid  $red;
+    color: $red;
+    background: $white;
   }
 }
 
+.info {
+  background-color: $greyish;
+}
+
 .products {
-  background-color: $light_grey;
+  background-color: $marmer;
   color: $white;
 
-  button {
-    background-color: $light_primary_color;
+  button:hover {
+    border: 2px solid  $brown;
+    background-color: $brown;
     color: $white;
+  }
+
+  button{
+    border: 2px solid  $brown;
+    color: $brown;
+    background: $white;
+  }
+
+  article {
+    background-image: linear-gradient(hsla(0, 100%, 100%, 0), hsl(0, 100%, 100%) 65%, hsla(0, 100%, 100%, 0.8) 95%, hsla(0, 100%, 100%, 0));
   }
 }
 
 .customer {
-  background-color: $brown;
+  background-color: $rust;
 
   h2 {
     color: $base_text_color;
