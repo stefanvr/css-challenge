@@ -1,4 +1,6 @@
 /* Generic */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 * {
   padding: 0;
   margin: 0; }
@@ -11,21 +13,17 @@ body {
 /* Screen-sizes */
 /* Typography */
 h1 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 1.5em; }
 
 h2 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em; }
 
 h4 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
 h5 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   font-style: italic; }
 
@@ -141,6 +139,22 @@ img.person {
 
 .customer img {
   margin: 2em auto 1em auto; }
+
+/* Typography */
+body {
+  font-family: 'Roboto Condensed', serif; }
+
+h1 {
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  font-family: 'Roboto', sans-serif; }
+
+h4 {
+  font-family: 'Roboto', sans-serif; }
+
+h5 {
+  font-family: 'Roboto', sans-serif; }
 
 /* components */
 img.person {

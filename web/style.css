@@ -4,28 +4,23 @@
   margin: 0; }
 
 body {
-  font-family: 'Droid Serif', serif;
   font-size: 26px;
   line-height: 28px; }
 
 /* Screen-sizes */
 /* Typography */
 h1 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 1.5em; }
 
 h2 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em; }
 
 h4 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
 h5 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   font-style: italic; }
 

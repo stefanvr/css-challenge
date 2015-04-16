@@ -1,4 +1,29 @@
-@import "style";
+@import "style";|
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+
+/* Typography */
+body {
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  font-family: 'Droid', sans-serif;
+}
+
+h2 {
+  font-family: 'Droid', sans-serif;
+}
+
+h4 {
+  font-family: 'Droid', sans-serif;
+}
+
+h5 {
+  font-family: 'Droid', sans-serif;
+}
 
 /* components */
 img.person {

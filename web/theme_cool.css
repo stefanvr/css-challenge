@@ -1,31 +1,28 @@
 /* Generic */
+@import url(http://fonts.googleapis.com/css?family=Droid);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 * {
   padding: 0;
   margin: 0; }
 
 body {
-  font-family: 'Droid Serif', serif;
   font-size: 26px;
   line-height: 28px; }
 
 /* Screen-sizes */
 /* Typography */
 h1 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 1.5em; }
 
 h2 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em; }
 
 h4 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
 h5 {
-  font-family: 'Droid Sans', sans-serif;
   font-size: 0.9em;
   font-style: italic; }
 
@@ -141,6 +138,22 @@ img.person {
 
 .customer img {
   margin: 2em auto 1em auto; }
+
+/* Typography */
+body {
+  font-family: 'Droid Serif', serif; }
+
+h1 {
+  font-family: 'Droid', sans-serif; }
+
+h2 {
+  font-family: 'Droid', sans-serif; }
+
+h4 {
+  font-family: 'Droid', sans-serif; }
+
+h5 {
+  font-family: 'Droid', sans-serif; }
 
 /* components */
 img.person {
