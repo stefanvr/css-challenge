@@ -48,20 +48,36 @@ p, button {
 }
 
 /* colors */
-$accent_color: #03a9f4;
-$primary_color: #3f51b5;
-$light_primary_color: #c5cae9;
-$divider_color: #b6b6b6;
-
-$base_text_color: #ffffff;
-$primary_text_color: #333333;
-$secondary_text_color: #727272;
-
 $orange: #fC582F;
 $green: #8CC252;
 $light-green: #CDDA48;
 $blue: #1DAAF1;
 $yellow: #FEC02E;
+
+$brown: #795548;
+$ochre: #FFC107;
+$light_yellow: #FFECB3;
+$light_grey: #b6b6b6;
+
+$near_black: #212121;
+$middle_grey: #727272;
+
+$lightblue: #03a9f4;
+$blue: #3f51b5;
+$off_white: #c5cae9;
+
+$white: #ffffff;
+$dark_grey: #333333;
+
+
+$accent_color: $lightblue;
+$primary_color: $blue;
+$light_primary_color: $off_white;
+$divider_color: $light_grey;
+
+$base_text_color: $white;
+$primary_text_color: $dark_grey;
+$secondary_text_color: $light_grey;
 
 .mouse {
   background-color: $orange
