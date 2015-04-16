@@ -1,5 +1,5 @@
 /* Generic */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab);
 * {
   padding: 0;
   margin: 0; }
@@ -140,44 +140,43 @@ img.person {
 
 /* Typography */
 body {
-  font-family: 'Droid Serif', serif; }
+  font-family: 'Josefin Sans', serif; }
 
 h1 {
-  font-family: 'Droid', sans-serif; }
+  font-family: 'Josefin Slab', sans-serif; }
 
 h2 {
-  font-family: 'Droid', sans-serif; }
+  font-family: 'Josefin Slab', sans-serif; }
 
 h4 {
-  font-family: 'Droid', sans-serif; }
+  font-family: 'Josefin Slab', sans-serif; }
 
 h5 {
-  font-family: 'Droid', sans-serif; }
+  font-family: 'Josefin Slab', sans-serif; }
 
 /* components */
 img.person {
-  border-color: #03a9f4; }
+  border-color: #795548; }
 
 /* sections */
 .intro {
-  background-color: #3f51b5;
+  background-color: #FFC107;
   color: #ffffff; }
   .intro p {
     color: #c5cae9; }
   .intro button {
-    background-color: #03a9f4;
+    background-color: #795548;
     color: #ffffff; }
 
 .products {
-  background-color: #c5cae9;
+  background-color: #b6b6b6;
   color: #ffffff; }
   .products button {
     background-color: #c5cae9;
     color: #ffffff; }
 
 .customer {
-  /* colors */
-  background-color: #03a9f4; }
+  background-color: #795548; }
   .customer h2 {
     color: #ffffff; }
   .customer article {

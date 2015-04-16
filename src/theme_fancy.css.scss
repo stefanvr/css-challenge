@@ -1,0 +1,70 @@
+@import "style";
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab);
+
+/* Typography */
+body {
+  font-family: 'Josefin Sans', serif;
+}
+
+h1 {
+  font-family: 'Josefin Slab', sans-serif;
+}
+
+h2 {
+  font-family: 'Josefin Slab', sans-serif;
+}
+
+h4 {
+  font-family: 'Josefin Slab', sans-serif;
+}
+
+h5 {
+  font-family: 'Josefin Slab', sans-serif;
+}
+
+
+/* components */
+img.person {
+  border-color: $brown;
+}
+
+/* sections */
+.intro {
+  background-color: $ochre;
+  color: $white;
+
+  p {
+    color: $light_primary_color;
+  }
+
+  button {
+    background-color: $brown;
+    color: $white;
+  }
+}
+
+.products {
+  background-color: $light_grey;
+  color: $white;
+
+  button {
+    background-color: $light_primary_color;
+    color: $white;
+  }
+}
+
+.customer {
+  background-color: $brown;
+
+  h2 {
+    color: $base_text_color;
+  }
+
+  article {
+    background-color: $base_text_color;
+  }
+
+  p {
+    color: $secondary_text_color;
+  }
+}
