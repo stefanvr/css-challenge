@@ -141,3 +141,34 @@ img.person {
 
 .customer img {
   margin: 2em auto 1em auto; }
+
+/* components */
+img.person {
+  border-color: #03a9f4; }
+
+/* sections */
+.intro {
+  background-color: #3f51b5;
+  color: #ffffff; }
+  .intro p {
+    color: #c5cae9; }
+  .intro button {
+    background-color: #03a9f4;
+    color: #ffffff; }
+
+.products {
+  background-color: #c5cae9;
+  color: #ffffff; }
+  .products button {
+    background-color: #c5cae9;
+    color: #ffffff; }
+
+.customer {
+  /* colors */
+  background-color: #03a9f4; }
+  .customer h2 {
+    color: #ffffff; }
+  .customer article {
+    background-color: #ffffff; }
+  .customer p {
+    color: #b6b6b6; }

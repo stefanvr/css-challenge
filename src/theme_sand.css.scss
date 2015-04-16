@@ -1,0 +1,47 @@
+@import "style";
+
+/* components */
+img.person {
+  border-color: $brown;
+}
+
+/* sections */
+.intro {
+  background-color: $ochre;
+  color: $white;
+
+  p {
+    color: $light_primary_color;
+  }
+
+  button {
+    background-color: $brown;
+    color: $white;
+  }
+}
+
+.products {
+  background-color: $light_grey;
+  color: $white;
+
+  button {
+    background-color: $light_primary_color;
+    color: $white;
+  }
+}
+
+.customer {
+  background-color: $brown;
+
+  h2 {
+    color: $base_text_color;
+  }
+
+  article {
+    background-color: $base_text_color;
+  }
+
+  p {
+    color: $secondary_text_color;
+  }
+}

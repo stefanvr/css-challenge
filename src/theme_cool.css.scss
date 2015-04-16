@@ -1,0 +1,49 @@
+@import "style";
+
+/* components */
+img.person {
+  border-color: $accent_color;
+}
+
+/* sections */
+.intro {
+  background-color: $primary_color;
+  color: $base_text_color;
+
+  p {
+    color: $light_primary_color;
+  }
+
+  button {
+    background-color: $accent_color;
+    color: $base_text_color;
+  }
+}
+
+.products {
+  background-color: $light_primary_color;
+  color: $base_text_color;
+
+  button {
+    background-color: $light_primary_color;
+    color: $base_text_color;
+  }
+}
+
+.customer {
+  /* colors */
+  background-color: $accent_color;
+
+  h2 {
+    color: $base_text_color;
+  }
+
+  article {
+    background-color: $base_text_color;
+  }
+
+  p {
+    color: $secondary_text_color;
+  }
+}
+
