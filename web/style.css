@@ -34,19 +34,19 @@ p, button {
   line-height: 28px; }
 
 /* colors */
-.orange {
+.mouse {
   background-color: #fC582F; }
 
-.green {
+.graph {
   background-color: #8CC252; }
 
-.light-green {
+.speaker {
   background-color: #CDDA48; }
 
-.blue {
+.pda {
   background-color: #1DAAF1; }
 
-.yellow {
+.cam {
   background-color: #FEC02E; }
 
 /* generic layout */
